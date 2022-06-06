@@ -64,6 +64,10 @@ a {
 }
 
 .actual-components {
+   display: flex;
+   flex-direction: row;
+   margin-left: 20px;
+
    /* use display property and change it to flex  */
 }
 
@@ -73,4 +77,5 @@ a {
 
 .actual-components p {
    /* add margin left or right  */
+   margin-left: 16px;
 }
