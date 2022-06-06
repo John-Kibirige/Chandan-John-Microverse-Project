@@ -64,15 +64,14 @@ a {
 }
 
 .actual-components {
-   display: flex;
-   flex-direction: row;
    margin-left: 20px;
 
    /* use display property and change it to flex  */
 }
 
 .actual-components h3 {
-   /* adjust font size, and margin right */
+   font-size: 29px;
+   font-weight: 700;
 }
 
 .actual-components p {
