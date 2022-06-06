@@ -28,6 +28,49 @@ a {
 }
 .form-header {
    text-align: center;
-   
+}
 
+.form-data {
+   display: flex;
+   flex-direction: column;
+   width: 463px;
+   margin-inline: auto;
+   margin-top: 20px;
+}
+
+.email {
+   width: 70%;
+   padding: 9px;
+   font-size: 14px;
+   margin-bottom: 12px;
+   margin-inline: auto;
+}
+
+.email:focus {
+   border: 3px solid black;
+   outline: none;
+}
+
+.get-started {
+   width: 30%;
+   margin-inline: auto;
+   padding: 10px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   background-color: yellow;
+   border: none;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+
+.actual-components {
+   /* use display property and change it to flex  */
+}
+
+.actual-components h3 {
+   /* adjust font size, and margin right */
+}
+
+.actual-components p {
+   /* add margin left or right  */
 }
